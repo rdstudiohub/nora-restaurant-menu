@@ -97,6 +97,8 @@
       margin-bottom: 30px;
       text-transform: uppercase;
       backdrop-filter: blur(4px);
+      position: relative;
+      z-index: 5;
     }
     .hero-badge i { font-size: 0.75rem; }
     .hero-logo-img {
@@ -112,6 +114,8 @@
       align-items: center;
       justify-content: center;
       transition: transform 0.4s ease;
+      position: relative;
+      z-index: 5;
     }
     .hero-logo-img:hover {
       transform: scale(1.05) rotate(2deg);
@@ -129,11 +133,15 @@
       margin: 5px 0 30px;
       font-weight: 500;
       letter-spacing: 2px;
+      position: relative;
+      z-index: 5;
     }
     .hero-divider {
       width: 80px; height: 2px;
       background: linear-gradient(90deg, transparent, #c9a84c, transparent);
       margin: 10px auto 30px;
+      position: relative;
+      z-index: 5;
     }
     .hero-info {
       display: flex;
@@ -143,6 +151,8 @@
       margin: 20px 0;
       font-size: 1rem;
       color: #b8a88a;
+      position: relative;
+      z-index: 5;
     }
     .hero-info-item {
       display: flex;
@@ -165,6 +175,7 @@
       font-size: 1.5rem;
       animation: bounce-down 2s infinite;
       cursor: pointer;
+      z-index: 5;
     }
     @keyframes bounce-down {
       0%, 100% { transform: translateX(-50%) translateY(0); opacity: 0.6; }
